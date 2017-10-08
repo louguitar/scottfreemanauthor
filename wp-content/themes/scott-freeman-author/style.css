@@ -45,13 +45,13 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.io/normalize.css/
 # Normalize
 --------------------------------------------------------------*/
 html {
-	font-family: sans-serif;
+	font-family: 'Josefin Sans', sans-serif;
 	-webkit-text-size-adjust: 100%;
 	-ms-text-size-adjust: 100%;
 }
 
 body {
-	margin: 0;
+	margin: 0 auto;
 }
 
 article,
@@ -265,7 +265,7 @@ select,
 optgroup,
 textarea {
 	color: #404040;
-	font-family: sans-serif;
+	font-family: 'Josefin Sans', sans-serif;
 	font-size: 16px;
 	font-size: 1rem;
 	line-height: 1.5;
@@ -700,6 +700,22 @@ a:hover, a:active {
 /*--------------------------------------------------------------
 # Content
 --------------------------------------------------------------*/
+
+.site-container {
+    max-width:1280px;
+    margin: 0 auto;
+}
+
+#masthead {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+footer {
+    max-width: 1280px;
+    margin: 0 auto;
+    
+}
 /*--------------------------------------------------------------
 ## Posts and pages
 --------------------------------------------------------------*/
