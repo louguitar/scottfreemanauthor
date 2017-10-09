@@ -268,7 +268,7 @@ textarea {
 	font-family: 'Josefin Sans', sans-serif;
 	font-size: 16px;
 	font-size: 1rem;
-	line-height: 1.5;
+	
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -277,6 +277,7 @@ h1, h2, h3, h4, h5, h6 {
 
 p {
 	margin-bottom: 1.5em;
+    line-height: 1.5;
 }
 
 dfn, cite, em, i {
@@ -508,7 +509,7 @@ a:hover, a:active {
 .main-navigation {
 	clear: both;
 	display: block;
-	float: left;
+/*	float: left;*/
 	width: 100%;
 }
 
@@ -672,8 +673,10 @@ a:hover, a:active {
 .site-footer:before,
 .site-footer:after {
 	content: "";
+/*
 	display: table;
 	table-layout: fixed;
+*/
 }
 
 .clear:after,
@@ -716,6 +719,15 @@ footer {
     margin: 0 auto;
     
 }
+/* Hide Title On Homepage */
+.page-id-8 .entry-title {
+    display: none;
+}
+/* END Hide Title On Homepage */
+
+#masthead {
+background-color: transparent !important;
+}
 /*--------------------------------------------------------------
 ## Posts and pages
 --------------------------------------------------------------*/
@@ -734,7 +746,7 @@ footer {
 .page-content,
 .entry-content,
 .entry-summary {
-	margin: 1.5em 0 0;
+/*	margin: 1.5em 0 0;*/
 }
 
 .page-links {
