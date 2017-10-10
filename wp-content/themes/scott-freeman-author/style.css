@@ -344,7 +344,7 @@ body {
 }
 
 hr {
-	background-color: #ccc;
+/*	background-color: #ccc;*/
 	border: 0;
 	height: 1px;
 	margin-bottom: 1.5em;
@@ -672,8 +672,8 @@ a:hover, a:active {
 .site-content:after,
 .site-footer:before,
 .site-footer:after {
-	content: "";
-/*
+/*	content: "";
+
 	display: table;
 	table-layout: fixed;
 */
@@ -706,12 +706,13 @@ a:hover, a:active {
 
 .site-container {
     max-width:1280px;
-    margin: 0 auto;
+    margin: -64px auto;
 }
 
 #masthead {
     max-width: 1280px;
     margin: 0 auto;
+    display: none;
 }
 
 footer {
@@ -727,6 +728,133 @@ footer {
 
 #masthead {
 background-color: transparent !important;
+}
+
+.portrait {
+    position: relative;
+    z-index: 2;
+    top: -150px;
+    border: 1px solid #666;
+    margin-right: 50px;
+    float: left;
+    max-width: 325px;
+    margin-bottom: -140px;
+    box-shadow: 0px -0px 37px -11px #000;
+    
+    
+}
+
+.home-content {
+    padding-left: 100px;
+    padding-right: 70px;
+    
+}
+
+.home-header {
+    position: relative;
+    top: -350px;
+    text-align: center;
+    color: white;
+    margin-bottom: -154px;
+}
+
+.home-header h1 {
+    font-size: 5.5em;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    text-shadow: 1px 5px 7px #333;
+    font-family: 'Josefin Slab', sans-serif;
+    
+}
+
+.home-header h3 {
+    font-size: 2.3em;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    text-shadow: 1px 3px 5px #000;
+    font-weight: 400;
+    
+}
+
+.home-header hr {
+    width:100% !important;
+    height:2px !important;
+    background-image: linear-gradient(to right, transparent, rgba(255, 255, 255, 1), transparent) !important
+    
+}
+
+.home-bottom {
+/*    position: relative;*/
+    top: -350px;
+    text-align: center;
+    color: white;
+    margin-bottom: -154px;
+}
+
+.home-bottom h1 {
+    font-size: 4em;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    text-shadow: 1px 5px 7px #333;
+    font-weight: 600;
+    
+    
+}
+
+.home-bottom h3 {
+    font-size: 2.3em;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    text-shadow: 1px 3px 5px #000;
+    font-weight: 700;
+    font-family: 'Josefin Slab', sans-serif;
+    
+}
+
+.home-bottom h4 {
+    font-size: 2em;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    text-shadow: 1px 3px 5px #000;
+    font-weight: 600;
+    font-family: 'Josefin Slab', sans-serif;
+    
+}
+
+.home-bottom h5 {
+    font-size: 1.5em;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    text-shadow: 1px 3px 5px #000;
+    font-weight: 600;
+    font-family: 'Josefin Slab', sans-serif;
+    
+}
+
+.home-bottom h6 {
+    font-size: 1.1em;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    text-shadow: 1px 3px 5px #000;
+    font-weight: 400;
+    font-family: 'Josefin Slab', sans-serif;
+    
+}
+.home-bottom hr {
+    width:100% !important;
+    height:2px !important;
+    background-image: linear-gradient(to right, transparent, rgba(255, 255, 255, 1), transparent) !important
+    
+}
+
+.credits {
+    margin-top: 60px;
+    
+}
+
+.footer-copyright  {
+    text-align: center;
+    padding: 20px 0px;
 }
 /*--------------------------------------------------------------
 ## Posts and pages

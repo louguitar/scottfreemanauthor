@@ -15,15 +15,20 @@
 
 	<footer id="colophon" class="site-footer">
 		<div class="site-info">
+           <div class="footer-copyright"> © Scott Freeman. All rights reserved.  </div>
+<!-- 
 			<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'scott-freeman-author' ) ); ?>"><?php
 				/* translators: %s: CMS name, i.e. WordPress. */
 				printf( esc_html__( 'Proudly powered by %s', 'scott-freeman-author' ), 'WordPress' );
 			?></a>
+-->
 			<span class="sep"> | </span>
+<!--
 			<?php
 				/* translators: 1: Theme name, 2: Theme author. */
 				printf( esc_html__( 'Theme: %1$s by %2$s.', 'scott-freeman-author' ), 'scott-freeman-author', '<a href="http://www.ghaddar.pro">Lou Ghaddar</a>' );
 			?>
+-->
 		</div><!-- .site-info -->
 	</footer><!-- #colophon -->
 </div><!-- #page -->
