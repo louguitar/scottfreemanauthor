@@ -856,6 +856,124 @@ background-color: transparent !important;
     text-align: center;
     padding: 20px 0px;
 }
+
+@media screen and (max-width: 800px) {
+    .home-content {
+        padding-left: 50px;
+        padding-right: 30px;
+    }
+    
+    .home-header h1 {
+    font-size: 4.5em;
+    }
+    
+    .home-header h3 {
+    font-size: 1.8em;
+    }
+    
+    .home-header {
+    margin-bottom: -130px;
+    }
+    .home-bottom h1 {
+    font-size: 3em;
+    }
+    
+    .home-bottom h3 {
+    font-size: 2em;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .portrait {
+    max-width: 250px;
+    }
+    
+     .home-bottom h1 {
+    font-size: 2em;
+    }
+    
+    .home-bottom h3 {
+    font-size: 1.5em;
+    }
+       .home-header h1 {
+    font-size: 3.5em;
+    }
+    
+    .home-header h3 {
+    font-size: 1.3em;
+    }
+    .home-header {
+    margin-bottom: -110px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .portrait {
+        float: none;
+        max-width: 350px;
+    }
+}
+
+@media screen and (max-width: 430px) {
+    .portrait {
+        float: none;
+        max-width: 300px;
+    }
+     .home-header h1 {
+    font-size: 3em;
+    }
+    
+    .home-header h3 {
+    font-size: 1em;
+    }
+    
+    .home-bottom h1 {
+    font-size: 1.5em;
+    }
+    
+    .home-bottom h3 {
+    font-size: 1.1em;
+    }
+    
+    .home-bottom h4 {
+    font-size: 1.2em;
+    
+}
+
+.home-bottom h5 {
+    font-size: .9em;
+    
+}
+
+.home-bottom h6 {
+    font-size: 1em;
+    
+}
+}
+
+@media screen and (max-width: 375px) {
+    .home-content {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    
+      .home-header h1 {
+    font-size: 2.5em;
+    }
+    
+    .home-header h3 {
+    font-size: .8em;
+    }
+    
+    
+}
+
+@media screen and (max-width: 334px) {
+    .portrait {
+    max-width: 275px;
+    }
+    
+}
 /*--------------------------------------------------------------
 ## Posts and pages
 --------------------------------------------------------------*/
