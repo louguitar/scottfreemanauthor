@@ -511,13 +511,18 @@ a:hover, a:active {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
+    height: 44px;
+    
 
 }
 
+.active {
+    text-decoration: underline;
+}
 #primary-menu {
     position: absolute;
     height: 20px;
-    top: 10px;
+/*    top: 10px;*/
     z-index: 9999;
     font-family: 'Josefin Sans', sans-serif;
 /*
@@ -578,10 +583,12 @@ a:hover, a:active {
 .main-navigation a {
 	display: block;
 	text-decoration: none;
-    color: #fff;
+    color: #c59d5f;
     font-size: 20px;
     padding: 0 20px;
+    margin-top: 10px;
 }
+
 
 /* Small menu. */
 .menu-toggle,
