@@ -22,8 +22,8 @@
 				printf( esc_html__( 'Proudly powered by %s', 'scott-freeman-author' ), 'WordPress' );
 			?></a>
 -->
-			<span class="sep"> | </span>
 <!--
+			<span class="sep"> | </span>
 			<?php
 				/* translators: 1: Theme name, 2: Theme author. */
 				printf( esc_html__( 'Theme: %1$s by %2$s.', 'scott-freeman-author' ), 'scott-freeman-author', '<a href="http://www.ghaddar.pro">Lou Ghaddar</a>' );

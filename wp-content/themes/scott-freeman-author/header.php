@@ -17,7 +17,21 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="profile" href="http://gmpg.org/xfn/11">
     <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:100,100i,300,300i,400,400i,600,600i,700,700i|Josefin+Slab:100,100i,300,300i,400,400i,600,600i,700,700i" rel="stylesheet"> 
-
+<script>
+    $(document).ready(function(){       
+   var scroll_start = 0;
+   var scrollchange = $('#masthead');
+   var offset = scrollchange.offset();
+   $(document).scroll(function() { 
+      scroll_start = $(this).scrollTop();
+      if(scroll_start > offset.top) {
+          $('#masthead').css('background-color', '#f0f0f0');
+       } else {
+          $('#masthead').css('background-color', 'transparent');
+       }
+   });
+});
+    </script>
 	<?php wp_head(); ?>
 </head>
 

@@ -506,11 +506,33 @@ a:hover, a:active {
 /*--------------------------------------------------------------
 ## Menus
 --------------------------------------------------------------*/
+.menu-main-menu-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+#primary-menu {
+    position: absolute;
+    height: 20px;
+    top: 10px;
+    z-index: 9999;
+    font-family: 'Josefin Sans', sans-serif;
+/*
+    left: 45%;
+    right: 45%;
+    width: 300px;
+*/
+
+}
+
 .main-navigation {
 	clear: both;
-	display: block;
 /*	float: left;*/
 	width: 100%;
+   
 }
 
 .main-navigation ul {
@@ -556,6 +578,9 @@ a:hover, a:active {
 .main-navigation a {
 	display: block;
 	text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    padding: 0 20px;
 }
 
 /* Small menu. */
@@ -712,7 +737,7 @@ a:hover, a:active {
 #masthead {
     max-width: 1280px;
     margin: 0 auto;
-    display: none;
+    display: block;
 }
 
 footer {
@@ -726,9 +751,11 @@ footer {
 }
 /* END Hide Title On Homepage */
 
+/*
 #masthead {
 background-color: transparent !important;
 }
+*/
 
 .portrait {
     position: relative;
