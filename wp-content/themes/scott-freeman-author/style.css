@@ -180,6 +180,7 @@ textarea {
 
 button {
 	overflow: visible;
+    border: 1px solid #c59d5f;
 }
 
 button,
@@ -272,7 +273,7 @@ textarea {
 }
 
 h1, h2, h3, h4, h5, h6 {
-	clear: both;
+/*	clear: both;*/
 }
 
 p {
@@ -282,10 +283,31 @@ p {
 
 dfn, cite, em, i {
 	font-style: italic;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
 }
 
 blockquote {
-	margin: 0 1.5em;
+    font-size: 30px;
+    font-family: 'Josefin Slab', sans-serif;
+    font-weight: 600;
+}
+
+.quoter {
+    	font-style: italic;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    text-align: right;
+    margin-right: 4em;
+}
+
+.testimonials {
+    width: 70%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    margin-bottom: 7em;
 }
 
 address {
@@ -400,22 +422,32 @@ button,
 input[type="button"],
 input[type="reset"],
 input[type="submit"] {
-	border: 1px solid;
-	border-color: #ccc #ccc #bbb;
+	border: 2px solid #c59d5f;
 	border-radius: 3px;
-	background: #e6e6e6;
-	color: rgba(0, 0, 0, 0.8);
+	background: #fff;
+	color: rgba(197, 157, 95, 1);
 	font-size: 12px;
 	font-size: 0.75rem;
 	line-height: 1;
 	padding: .6em 1em .4em;
+    -webkit-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+}
+
+.cta_buttons button {
+    font-size: 14px;
 }
 
 button:hover,
 input[type="button"]:hover,
 input[type="reset"]:hover,
 input[type="submit"]:hover {
-	border-color: #ccc #bbb #aaa;
+	border: 2px solid #fff;
+    background: #c59d5f;
+    color: #fff;
+    
 }
 
 button:active, button:focus,
@@ -516,9 +548,6 @@ a:hover, a:active {
 
 }
 
-.active {
-    text-decoration: underline;
-}
 #primary-menu {
     position: absolute;
     height: 20px;
@@ -587,6 +616,21 @@ a:hover, a:active {
     font-size: 20px;
     padding: 0 20px;
     margin-top: 10px;
+}
+
+.main-navigation a:hover {
+	text-decoration: underline;
+    color: #c59d5f;
+}
+.active {
+    text-decoration: underline;
+    color: #c59d5f;
+}
+
+.post-type-archive-tribe_events .menu-item-50 a {
+    text-decoration: underline;
+    color: #c59d5f;
+    
 }
 
 
@@ -784,12 +828,16 @@ background-color: transparent !important;
     
 }
 
+.adamrob_parallax_posttitle {
+    color:transparent;
+}
 .home-header {
     position: relative;
     top: -350px;
     text-align: center;
     color: white;
     margin-bottom: -154px;
+    z-index: 5;
 }
 
 .home-header h1 {
@@ -886,6 +934,28 @@ background-color: transparent !important;
     
 }
 
+.credits-book-page {
+   line-height: 0px;
+    float: left;
+    
+}
+
+.callout {
+    background: lightgrey;
+    width: 50%;
+    margin: left: 50px;
+    margin-left: 57%;
+    padding: 20px;
+    border-radius: 5px;
+    position: relative;
+    top: -14px;
+    text-align: center;
+}
+
+.credits-book-page h6 {
+    margin-bottom: -5px;
+}
+
 .footer-copyright  {
     text-align: center;
     padding: 20px 0px;
@@ -906,7 +976,7 @@ background-color: transparent !important;
     }
     
     .home-header {
-    margin-bottom: -130px;
+        margin-bottom: -130px;
     }
     .home-bottom h1 {
     font-size: 3em;
@@ -1032,6 +1102,21 @@ background-color: transparent !important;
 .page-links {
 	clear: both;
 	margin: 0 0 1.5em;
+}
+
+#content {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.post {
+    width: 70%;
+    float: left;
+}
+
+aside {
+    width: 30%;
+    float: left;
 }
 
 /*--------------------------------------------------------------

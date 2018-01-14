@@ -1,0 +1,520 @@
+/**********************************************************************************
+
+  Project Name: NEOBLOG Theme
+  Project Description: A Simple Blog Theme for 1stwebdesigner.com
+  File Name: style.css
+  Author: Sam Norton
+  Author URI: http://www.1stwebdesigner.com/
+  Version: 1.0.0
+  
+**********************************************************************************/
+
+
+/***********************************************************************************************/
+/* @FONT-FACE */
+/***********************************************************************************************/
+
+@font-face {
+    font-family: "Museo 100";
+    src: url('../fonts/Museo100-Regular.otf') format("opentype");
+}
+
+@font-face {
+    font-family: "Museo 300";
+    src: url('../fonts/Museo300-Regular.otf') format("opentype");
+}
+
+@font-face {
+    font-family: "Nexa Bold";
+    src: url('../fonts/Nexa Bold.otf') format("opentype");
+}
+
+
+
+/***********************************************************************************************/
+/* GENERAL STYLES AND CLASSES */
+/***********************************************************************************************/
+
+body {
+    font-family:"Museo 100";
+    font-size:16px;
+    color:#7a7a7a;
+    -webkit-font-smoothing:antialiased
+}
+
+h1 {
+    font-family:"Museo 300";
+    font-size:38px;
+    line-height:1.4em;
+    color:#575757;
+    margin-bottom:0
+}
+
+h2 {
+    font-size:30px;
+    line-height:2em;
+    color:#575757;
+    font-family:'Museo 300'
+}
+
+h3 {
+    font-size:24px;
+    line-height:1.2em;
+    margin-bottom:20px
+}
+
+h4,h4 a {
+    font-size:18px;
+    font-family:'Nexa Bold';
+    text-decoration:underline;
+    color:#2ecc71
+}
+
+h4 a:hover {
+    color:#27ae60
+}
+
+em {
+    color:#7a7a7a;
+    font-size:14px;
+    font-style:italic
+}
+
+p {
+    margin-bottom:1.2em;
+    margin-top:1em
+}
+
+p a {
+    color:#3498db;
+    text-decoration:none;
+    -webkit-transition:color .2s ease-out;
+    -moz-transition:color .2s ease-out;
+    -o-transition:color .2s ease-out;
+    transition:color .2s ease-out
+}
+
+p a:hover {
+    border-bottom:1px dotted;
+    color:#2b86c2
+}
+
+
+.gray {
+    color:#575757
+}
+
+.blue {
+    color:#428bca
+}
+
+.align-left {
+    text-align:left
+}
+
+.align-right {
+    text-align:right
+}
+
+.align-center {
+    text-align:center
+}
+
+.inline li {
+    margin-right:24px;
+    display:inline-block
+}
+
+.inline li:last-child {
+    margin-right:0
+}
+
+.fleft {
+    float:left
+}
+
+.fright {
+    float:right
+}
+
+.center {
+    margin:0 auto
+}
+
+.clear {
+    clear:both
+}
+
+img.opacity-hover {
+    cursor:pointer;
+    -webkit-transition:all .5s ease;
+    -moz-transition:all .5s ease;
+    -o-transition:all .5s ease;
+    transition:all .5s ease
+}
+
+img.opacity-hover:hover {
+    opacity:.6
+}
+
+
+/***********************************************************************************************/
+/* OTHER ELEMENT STYLES */
+/***********************************************************************************************/hr {
+    background-color:#dcdbdb;
+    background-image:-moz-linear-gradient(left,#fff 0%,#dcdbdb 50%,#fff 100%);
+    background-image:-o-linear-gradient(left,#fff 0%,#dcdbdb 50%,#fff 100%);
+    background-image:-webkit-linear-gradient(left,#fff 0%,#dcdbdb 50%,#fff 100%);
+    background-image:linear-gradient(left,#fff 0%,#dcdbdb 50%,#fff 100%);
+    border:none;
+    height:1px;
+    margin:1.5em auto;
+    width:50%
+}
+
+hr.no-margin {
+    margin:0 auto
+}
+
+.box-layer {
+    background-color:#fff;
+    border:1px solid #dcdbdb;
+    padding:3px;
+    -webkit-box-shadow:0 0 5px 0 rgba(0,0,0,0.16);
+    -moz-box-shadow:0 0 5px 0 rgba(0,0,0,0.16);
+    box-shadow:0 0 5px 0 rgba(0,0,0,0.16);
+    cursor:pointer
+}
+
+.box figure img {
+    display:block;
+    height:auto;
+    width:100%
+}
+
+.custom-padding {
+    padding:30px 40px;
+    cursor:auto;
+    margin-top:20px
+}
+
+.btn {
+    -webkit-border-radius:7px;
+    -moz-border-radius:7px;
+    border-radius:7px;
+    background-color:#cdcbcb;
+    color:#fff;
+    display:inline-block;
+    font-size:16px;
+    padding:7px 14px;
+    text-align:center;
+    text-decoration:none;
+    -webkit-background-clip:padding-box;
+    -moz-background-clip:padding;
+    background-clip:padding-box;
+    -webkit-transition:background-color .4s ease-out;
+    -moz-transition:background-color .4s ease-out;
+    -o-transition:background-color .4s ease-out;
+    transition:background-color .4s ease-out
+}
+
+.btn a {
+    color:#fff
+}
+
+.btn:hover {
+    background-color:#3498db;
+    color:#fff
+}
+
+.btn:active {
+    background-color:#242e37
+}
+
+.btn.active {
+    background-color:#fff;
+    font-weight:700
+}
+
+.btn.active:hover {
+    color:inherit
+}
+
+.btn-primary {
+    font-family:'Nexa Bold';
+    background-color:#3498db;
+    color:#fff;
+    font-size:16px;
+    font-weight:700;
+    height:48px;
+    -webkit-box-shadow:inset 0 -3px 0 0 rgba(0,0,0,0.2);
+    -moz-box-shadow:inset 0 -3px 0 0 rgba(0,0,0,0.2);
+    box-shadow:inset 0 -3px 0 0 rgba(0,0,0,0.2);
+    padding:12px 20px;
+    text-transform:uppercase
+}
+
+.btn-primary:hover {
+    background:#2b86c2
+}
+
+.btn-primary:active {
+    margin-top:3px;
+    box-shadow:none;
+    height:45px
+}
+
+.btn-margin {
+    margin-top:20px;
+    margin-bottom:50px
+}
+
+.general-form input[type="text"],.general-form input[type="email"],.general-form input[type="url"] {
+    height:42px;
+    -webkit-border-radius:0;
+    -moz-border-radius:0;
+    border-radius:0
+}
+
+.general-form textarea {
+    padding:10px 15px;
+    resize:none;
+    -webkit-border-radius:0;
+    -moz-border-radius:0;
+    border-radius:0
+}
+
+#submit-btn {
+    -webkit-border-radius:7px;
+    -moz-border-radius:7px;
+    border-radius:7px;
+    background-color:#cdcbcb;
+    color:#fff;
+    display:inline-block;
+    font-size:16px;
+    padding:7px 14px;
+    text-align:center;
+    text-decoration:none;
+    -webkit-background-clip:padding-box;
+    -moz-background-clip:padding;
+    background-clip:padding-box;
+    -webkit-transition:background-color .4s ease-out;
+    -moz-transition:background-color .4s ease-out;
+    -o-transition:background-color .4s ease-out;
+    transition:background-color .4s ease-out;
+    font-family:'Nexa Bold';
+    background-color:#3498db;
+    color:#fff;
+    font-size:16px;
+    font-weight:700;
+    height:48px;
+    -webkit-box-shadow:inset 0 -3px 0 0 rgba(0,0,0,0.2);
+    -moz-box-shadow:inset 0 -3px 0 0 rgba(0,0,0,0.2);
+    box-shadow:inset 0 -3px 0 0 rgba(0,0,0,0.2);
+    padding:12px 20px;
+    text-transform:uppercase;
+    border:none;
+    outline:none
+}
+
+#submit-btn:hover {
+    background:#2b86c2
+}
+
+p.error,span.error {
+    color:#FF4747;
+    font-size:15px;
+    padding:8px 0
+}
+
+.thanks {
+    color:#3498db;
+    font-size:20px;
+    font-weight:700
+}
+
+
+
+/***********************************************************************************************/
+/* SECTION */
+/***********************************************************************************************/
+.section-content {
+    padding:40px 0
+}
+
+ul.row {
+    margin-bottom:1.5em
+}
+
+.no-padding-bottom {
+    padding-bottom:0
+}
+
+li {
+    list-style:none;
+    margin:10px 0
+}
+
+p.details {
+    font-family:'Museo 300';
+    margin:0 0 12px
+}
+
+ul.post-categories li {
+    display:inline;
+    margin-right:10px
+}
+
+.related {
+    margin-top:5px
+}
+
+.negative-margin {
+    margin-top:-20px
+}
+
+
+/***********************************************************************************************/
+/* HEADER */
+/***********************************************************************************************/
+.main-header {
+    margin-top:61px;
+    margin-bottom:61px
+}
+
+.post-categories {
+    display:inline;
+    padding:0
+}
+
+.main-nav ul {
+    margin-top:2em
+}
+
+.main-nav ul li {
+    text-transform:uppercase
+}
+
+.main-nav ul li a {
+    font-size:17px;
+    color:#7a7a7a;
+    text-decoration:none;
+    font-family:'Museo 100';
+    -webkit-transition:color .2s ease-out;
+    -moz-transition:color .2s ease-out;
+    -o-transition:color .2s ease-out;
+    transition:color .2s ease-out
+}
+
+.main-nav ul li a:hover,.main-nav ul li a:active {
+    color:#3498db
+}
+
+.main-nav ul li.current-menu-item a {
+    color:#3498db
+}
+
+.logo {
+    display:inline-block;
+    margin:0 auto
+}
+
+
+/***********************************************************************************************/
+/* BLOG CONTAINER */
+/***********************************************************************************************/
+.blog-container {
+    background:transparent url(../images/crossword.png) 0 0 repeat;
+    -webkit-box-shadow:inset 0 0 5px 0 rgba(0,0,0,0.2);
+    -moz-box-shadow:inset 0 0 5px 0 rgba(0,0,0,0.2);
+    box-shadow:inset 0 0 5px 0 rgba(0,0,0,0.2)
+}
+
+.page-nav {
+    padding:1.5em 0;
+    margin-top:80px
+}
+
+.comment-section {
+    margin-top:40px
+}
+
+.comment-body {
+    border-bottom:1px dashed #7a7a7a;
+    margin-bottom:20px
+}
+
+
+/***********************************************************************************************/
+/* SHARING IDEAS AREA */
+/***********************************************************************************************/
+
+.sharing-container {
+  background-color: #2c3e50;
+}
+
+.sharing-container h3 {
+  color: white;
+}
+.sharing-container p {
+  color: #b5b5b5;
+  margin: 0 auto 1.5em;
+  width: 30%;
+}
+.sharing-container p a:hover {
+  color: white;
+}
+.sharing-container p:last-child {
+  margin-bottom: 0;
+}
+
+
+/***********************************************************************************************/
+/* SIDEBAR */
+/***********************************************************************************************/#search-box {
+    height:46px;
+    max-width:100%;
+    padding:0 15px;
+    margin-bottom:10px;
+    -webkit-border-radius:0;
+    -moz-border-radius:0;
+    border-radius:0
+}
+
+.latest-posts ul li {
+    margin:10px 0;
+    padding:0
+}
+
+.no-border {
+    border:none;
+    outline:none
+}
+
+.controller {
+    width:100%;
+    position:relative;
+    margin:18px 0 0;
+    display:inline-block
+}
+
+.form {
+    position:absolute
+}
+
+.margin-sidebar {
+    margin-bottom:20px
+}
+
+.widget {
+    margin-bottom:15px
+}
+
+
+/***********************************************************************************************/
+/* FOOTER */
+/***********************************************************************************************/
+.main-footer p {
+  margin: 0 auto;
+  width: 30%;
+}
