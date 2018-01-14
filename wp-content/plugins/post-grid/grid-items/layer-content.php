@@ -86,7 +86,7 @@ if ( ! defined('ABSPATH')) exit;  // if direct access
 					
 				
 				
-				$read_more_text = apply_filters('post_grid_filter_grid_item_read_more', __('Read more.', post_grid_textdomain));
+				$read_more_text = apply_filters('post_grid_filter_grid_item_read_more', __('Read more', post_grid_textdomain));
 				
 				
 				}
