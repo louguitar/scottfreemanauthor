@@ -516,11 +516,13 @@ textarea {
 ## Links
 --------------------------------------------------------------*/
 a {
-	color: royalblue;
+	color: rgba(197,157,95, 1);
+    text-decoration: none;
 }
 
 a:visited {
-	color: purple;
+	color: #c7b8a0;
+    
 }
 
 a:hover, a:focus, a:active {
@@ -564,13 +566,14 @@ a:hover, a:active {
 
 .main-navigation {
 	clear: both;
+    display: block;
 /*	float: left;*/
 	width: 100%;
    
 }
 
 .main-navigation ul {
-	display: none;
+	display: block;
 	list-style: none;
 	margin: 0;
 	padding-left: 0;
@@ -794,6 +797,7 @@ a:hover, a:active {
 footer {
     max-width: 1280px;
     margin: 0 auto;
+    clear:both;
     
 }
 /* Hide Title On Homepage */
@@ -958,7 +962,50 @@ background-color: transparent !important;
 
 .footer-copyright  {
     text-align: center;
-    padding: 20px 0px;
+    padding: 40px 0px 15px 0;
+}
+
+@media screen and (max-width: 1160px) {
+.credits-book-page {
+    float: none;
+    
+}
+
+.callout {
+    width: 70%;
+    max-width: 600px;
+    margin-left: 33%;
+    top:0px;
+    padding: 20px;
+    position: relative;
+    text-align: left;
+}
+    
+.cta_buttons button {
+    margin-top: 10px;
+}
+    
+.portrait {
+    margin-right: 25px;
+    }
+    
+}
+
+@media screen and (max-width: 1000px) {
+    .home-header h1 {
+        font-size: 4.0em;
+    }
+    
+    .callout {
+        margin-bottom: 50px;
+    }
+    .callout-contatiner {
+    margin-top: 40px;
+}
+    .home-content {
+    padding-left: 50px;
+    padding-right: 35px;
+}
 }
 
 @media screen and (max-width: 800px) {
@@ -968,7 +1015,7 @@ background-color: transparent !important;
     }
     
     .home-header h1 {
-    font-size: 4.5em;
+    font-size: 4.0em;
     }
     
     .home-header h3 {
@@ -985,11 +1032,39 @@ background-color: transparent !important;
     .home-bottom h3 {
     font-size: 2em;
     }
+    
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 700px) {
+    .home-header h1 {
+    font-size: 3.0em;
+    }
     .portrait {
-    max-width: 250px;
+        float: none;
+        max-width: 100%;
+        text-align: center;
+        left: 12%;
+    }
+    .callout-contatiner {
+        margin-top: 0px;
+    }
+    
+    .callout {
+        width: 100%;
+        margin-left: 0%;
+    }
+    
+}
+@media screen and (max-width: 600px) {
+    .home-content {
+    padding-left: 20px;
+    padding-right: 20px;
+    }
+    .portrait {
+        float: none;
+        max-width: 100%;
+        text-align: center;
+        left: 10%;
     }
     
      .home-bottom h1 {
@@ -1021,7 +1096,7 @@ background-color: transparent !important;
 @media screen and (max-width: 430px) {
     .portrait {
         float: none;
-        max-width: 300px;
+        max-width: 250px;
     }
      .home-header h1 {
     font-size: 3em;
@@ -1197,7 +1272,31 @@ aside {
     margin: 0 20px 7px 0
 }
 
+.not-active {
+   pointer-events: none;
+   cursor: default;
+}
 
+.posted-on a {
+    color: #94ae89;
+}
+
+.author.vcard a {
+    color: #94ae89;
+}
+p:first-child:first-letter {
+  font-size: 200%;
+    line-height: .9;
+    font-family: 'Josefin Slab', sans-serif;
+    font-weight:900;
+}
+
+.entry-content > p:first-child:first-letter {
+  font-size: 200%;
+    line-height: .9;
+    font-family: 'Josefin Slab', sans-serif;
+    font-weight:900;
+}
 /*--------------------------------------------------------------
 ## Comments
 --------------------------------------------------------------*/

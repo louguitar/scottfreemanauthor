@@ -23,7 +23,7 @@
 		endif;
 
 		if ( 'post' === get_post_type() ) : ?>
-		<div class="entry-meta">
+		<div class="entry-meta not-active">
 			<?php scott_freeman_author_posted_on(); ?>
 		</div><!-- .entry-meta -->
 		<?php
@@ -54,5 +54,5 @@
 
 	<footer class="entry-footer">
 		<?php scott_freeman_author_entry_footer(); ?>
-	</footer><!-- .entry-footer -->
+	</footer> <!--.entry-footer -->
 </article><!-- #post-<?php the_ID(); ?> -->

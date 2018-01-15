@@ -119,7 +119,7 @@ add_action( 'widgets_init', 'scott_freeman_author_widgets_init' );
 function scott_freeman_author_scripts() {
 	wp_enqueue_style( 'scott-freeman-author-style', get_stylesheet_uri() );
 
-	wp_enqueue_script( 'scott-freeman-author-navigation', get_template_directory_uri() . '/js/navigation.js', array(), '20151215', true );
+//	wp_enqueue_script( 'scott-freeman-author-navigation', get_template_directory_uri() . '/js/navigation.js', array(), '20151215', true );
 
 	wp_enqueue_script( 'scott-freeman-author-skip-link-focus-fix', get_template_directory_uri() . '/js/skip-link-focus-fix.js', array(), '20151215', true );
 
@@ -165,6 +165,5 @@ function special_nav_class ($classes, $item) {
     }
     return $classes;
 }
-
 
 
