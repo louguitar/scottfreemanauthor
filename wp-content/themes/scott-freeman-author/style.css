@@ -965,194 +965,7 @@ background-color: transparent !important;
     padding: 40px 0px 15px 0;
 }
 
-@media screen and (max-width: 1160px) {
-.credits-book-page {
-    float: none;
-    
-}
 
-.callout {
-    width: 70%;
-    max-width: 600px;
-    margin-left: 33%;
-    top:0px;
-    padding: 20px;
-    position: relative;
-    text-align: left;
-}
-    
-.cta_buttons button {
-    margin-top: 10px;
-}
-    
-.portrait {
-    margin-right: 25px;
-    }
-    
-}
-
-@media screen and (max-width: 1000px) {
-    .home-header h1 {
-        font-size: 4.0em;
-    }
-    
-    .callout {
-        margin-bottom: 50px;
-    }
-    .callout-contatiner {
-    margin-top: 40px;
-}
-    .home-content {
-    padding-left: 50px;
-    padding-right: 35px;
-}
-}
-
-@media screen and (max-width: 800px) {
-    .home-content {
-        padding-left: 50px;
-        padding-right: 30px;
-    }
-    
-    .home-header h1 {
-    font-size: 4.0em;
-    }
-    
-    .home-header h3 {
-    font-size: 1.8em;
-    }
-    
-    .home-header {
-        margin-bottom: -130px;
-    }
-    .home-bottom h1 {
-    font-size: 3em;
-    }
-    
-    .home-bottom h3 {
-    font-size: 2em;
-    }
-    
-}
-
-@media screen and (max-width: 700px) {
-    .home-header h1 {
-    font-size: 3.0em;
-    }
-    .portrait {
-        float: none;
-        max-width: 100%;
-        text-align: center;
-        left: 12%;
-    }
-    .callout-contatiner {
-        margin-top: 0px;
-    }
-    
-    .callout {
-        width: 100%;
-        margin-left: 0%;
-    }
-    
-}
-@media screen and (max-width: 600px) {
-    .home-content {
-    padding-left: 20px;
-    padding-right: 20px;
-    }
-    .portrait {
-        float: none;
-        max-width: 100%;
-        text-align: center;
-        left: 10%;
-    }
-    
-     .home-bottom h1 {
-    font-size: 2em;
-    }
-    
-    .home-bottom h3 {
-    font-size: 1.5em;
-    }
-       .home-header h1 {
-    font-size: 3.5em;
-    }
-    
-    .home-header h3 {
-    font-size: 1.3em;
-    }
-    .home-header {
-    margin-bottom: -110px;
-    }
-}
-
-@media screen and (max-width: 500px) {
-    .portrait {
-        float: none;
-        max-width: 350px;
-    }
-}
-
-@media screen and (max-width: 430px) {
-    .portrait {
-        float: none;
-        max-width: 250px;
-    }
-     .home-header h1 {
-    font-size: 3em;
-    }
-    
-    .home-header h3 {
-    font-size: 1em;
-    }
-    
-    .home-bottom h1 {
-    font-size: 1.5em;
-    }
-    
-    .home-bottom h3 {
-    font-size: 1.1em;
-    }
-    
-    .home-bottom h4 {
-    font-size: 1.2em;
-    
-}
-
-.home-bottom h5 {
-    font-size: .9em;
-    
-}
-
-.home-bottom h6 {
-    font-size: 1em;
-    
-}
-}
-
-@media screen and (max-width: 375px) {
-    .home-content {
-        padding-left: 20px;
-        padding-right: 20px;
-    }
-    
-      .home-header h1 {
-    font-size: 2.5em;
-    }
-    
-    .home-header h3 {
-    font-size: .8em;
-    }
-    
-    
-}
-
-@media screen and (max-width: 334px) {
-    .portrait {
-    max-width: 275px;
-    }
-    
-}
 /*--------------------------------------------------------------
 ## Posts and pages
 --------------------------------------------------------------*/
@@ -1422,4 +1235,217 @@ object {
 
 .gallery-caption {
 	display: block;
+}
+
+
+/*--------------------------------------------------------------
+## Media Queries
+--------------------------------------------------------------*/
+
+@media screen and (max-width: 1350px) {
+    .entry-header, .entry-content {
+    margin: 1.5em 0px 0 75px;
+    }
+}
+
+@media screen and (max-width: 1160px) {
+.credits-book-page {
+    float: none;
+    
+}
+
+.callout {
+    width: 70%;
+    max-width: 600px;
+    margin-left: 33%;
+    top:0px;
+    padding: 20px;
+    position: relative;
+    text-align: left;
+}
+    
+.cta_buttons button {
+    margin-top: 10px;
+}
+    
+.portrait {
+    margin-right: 25px;
+    }
+    
+}
+
+@media screen and (max-width: 1000px) {
+    .home-header h1 {
+        font-size: 4.0em;
+    }
+    
+    .callout {
+        margin-bottom: 50px;
+    }
+    .callout-contatiner {
+    margin-top: 40px;
+}
+    .home-content {
+    padding-left: 50px;
+    padding-right: 35px;
+}
+    aside{
+        float: none;
+        clear:both;
+        margin: 0 75px 0 75px;
+    }
+    .post {
+        width: 100%;
+        float: none;
+        clear: both;
+}
+    .entry-header, .entry-content {
+    margin: 1.5em 75px 0 75px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .home-content {
+        padding-left: 50px;
+        padding-right: 30px;
+    }
+    
+    .home-header h1 {
+    font-size: 4.0em;
+    }
+    
+    .home-header h3 {
+    font-size: 1.8em;
+    }
+    
+    .home-header {
+        margin-bottom: -130px;
+    }
+    .home-bottom h1 {
+    font-size: 3em;
+    }
+    
+    .home-bottom h3 {
+    font-size: 2em;
+    }
+    
+}
+
+@media screen and (max-width: 700px) {
+    .home-header h1 {
+    font-size: 3.0em;
+    }
+    .portrait {
+        float: none;
+        max-width: 100%;
+        text-align: center;
+        left: 12%;
+    }
+    .callout-contatiner {
+        margin-top: 0px;
+    }
+    
+    .callout {
+        width: 100%;
+        margin-left: 0%;
+    }
+    
+}
+@media screen and (max-width: 600px) {
+    .home-content {
+    padding-left: 20px;
+    padding-right: 20px;
+    }
+    .portrait {
+        float: none;
+        max-width: 100%;
+        text-align: center;
+        left: 10%;
+    }
+    
+     .home-bottom h1 {
+    font-size: 2em;
+    }
+    
+    .home-bottom h3 {
+    font-size: 1.5em;
+    }
+       .home-header h1 {
+    font-size: 3.5em;
+    }
+    
+    .home-header h3 {
+    font-size: 1.3em;
+    }
+    .home-header {
+    margin-bottom: -110px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .portrait {
+        float: none;
+        max-width: 350px;
+    }
+}
+
+@media screen and (max-width: 430px) {
+    .portrait {
+        float: none;
+        max-width: 250px;
+    }
+     .home-header h1 {
+    font-size: 3em;
+    }
+    
+    .home-header h3 {
+    font-size: 1em;
+    }
+    
+    .home-bottom h1 {
+    font-size: 1.5em;
+    }
+    
+    .home-bottom h3 {
+    font-size: 1.1em;
+    }
+    
+    .home-bottom h4 {
+    font-size: 1.2em;
+    
+}
+
+.home-bottom h5 {
+    font-size: .9em;
+    
+}
+
+.home-bottom h6 {
+    font-size: 1em;
+    
+}
+}
+
+@media screen and (max-width: 375px) {
+    .home-content {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    
+      .home-header h1 {
+    font-size: 2.5em;
+    }
+    
+    .home-header h3 {
+    font-size: .8em;
+    }
+    
+    
+}
+
+@media screen and (max-width: 334px) {
+    .portrait {
+    left: 7%;
+    }
+    
 }
