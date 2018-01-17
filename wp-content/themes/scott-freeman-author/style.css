@@ -694,7 +694,7 @@ a:hover, a:active {
 /*    font-family: "josefin slab", serif;*/
     font-weight: 900;
     position: absolute;
-    margin-top: 5px;
+    margin-top: 7px;
     margin-left: 100px;
     font-weight: 300;
 }
@@ -1269,9 +1269,11 @@ object {
 --------------------------------------------------------------*/
 
 @media screen and (max-width: 1350px) {
+/*
     .entry-header, .entry-content {
     margin: 1.5em 0px 0 75px;
     }
+*/
 }
 
 @media screen and (max-width: 1160px) {
@@ -1325,16 +1327,27 @@ object {
         float: none;
         clear: both;
 }
+/*
     .entry-header, .entry-content {
     margin: 1.5em 75px 0 75px;
     }
+*/
 }
 
 
 @media screen and (max-width: 900px) {
+/*
     .entry-content {
     margin: 1.5em 40px 0 50px;
 }
+    
+*/
+    .menu-main-menu-container {
+        margin-right: 50px;
+    }
+    .site-branding {
+        margin-left: 50px;
+    }
 }
 
 @media screen and (max-width: 800px) {
@@ -1361,10 +1374,22 @@ object {
     .home-bottom h3 {
     font-size: 2em;
     }
+/*
     .entry-content {
     margin: 1.5em 25px 0 25px;
 }
+*/
     
+}
+
+@media screen and (max-width: 770px) {
+    
+    .menu-main-menu-container {
+    margin-right: 10px;
+}
+    .site-branding {
+        margin-left: 25px;
+    }
 }
 
 @media screen and (max-width: 700px) {
@@ -1385,6 +1410,11 @@ object {
         width: 100%;
         margin-left: 0%;
     }
+    .main-navigation a {
+    font-size: 18px;
+    padding: 0 10px;
+    margin-top: 13px;
+}
     
 }
 @media screen and (max-width: 600px) {
@@ -1420,9 +1450,20 @@ object {
     blockquote {
     font-size: 20px;
     
-}
-    
-    
+    }
+    .menu-main-menu-container {
+    justify-content: center;
+    height: 64px;
+    }
+    #primary-menu {
+    margin-top: 30px;
+    }
+    .site-branding {
+    float: none;;
+    width: 100%;
+    margin-left: 0px;
+    text-align: center;
+    }
 
 
 .testimonials {
@@ -1435,6 +1476,18 @@ object {
     .portrait {
         float: none;
         max-width: 350px;
+    }
+    .site-branding {
+    font-size: 30px;
+    }
+    
+/*
+    .menu-main-menu-container {
+    height: 56px;
+    }
+*/
+    #primary-menu {
+    margin-top: 25px;
     }
 }
 
@@ -1478,9 +1531,11 @@ object {
         padding: 0px;
     }
     
+/*
     .entry-content {
     margin: 1.5em 10px 0 10px;
 }
+*/
     blockquote {
     font-size: 20px;
     margin: 10px;
@@ -1489,6 +1544,8 @@ object {
     .quoter {
         font-size: 14px;
     }
+    .main-navigation a {
+    padding: 0 5px;
 }
 
 @media screen and (max-width: 375px) {
