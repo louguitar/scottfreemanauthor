@@ -560,8 +560,9 @@ a:hover, a:active {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: right;
     height: 44px;
+    margin-right: 100px;
     
 
 }
@@ -569,14 +570,10 @@ a:hover, a:active {
 #primary-menu {
     position: absolute;
     height: 20px;
-/*    top: 10px;*/
     z-index: 9999;
     font-family: 'Josefin Sans', sans-serif;
-/*
-    left: 45%;
-    right: 45%;
-    width: 300px;
-*/
+    font-weight: 300;
+    margin-top: 3px;
 
 }
 
@@ -688,6 +685,18 @@ a:hover, a:active {
 	float: right;
 	text-align: right;
 	width: 50%;
+}
+
+.site-branding {
+    float: left;
+    
+    font-size: 35px;
+/*    font-family: "josefin slab", serif;*/
+    font-weight: 900;
+    position: absolute;
+    margin-top: 5px;
+    margin-left: 100px;
+    font-weight: 300;
 }
 
 /*--------------------------------------------------------------

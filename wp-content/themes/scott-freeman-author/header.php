@@ -31,7 +31,9 @@
 		</div><!-- .site-branding -->
 
 		<nav id="site-navigation" class="main-navigation">
-<!--			<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Primary Menu', 'scott-freeman-author' ); ?></button>-->
+<!--			<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Primary Menu', 'scott-freeman-author' ); ?></button>--><div class="site-branding">
+			Scott Freeman
+		</div><!-- .site-branding -->
 			<?php
 				wp_nav_menu( array(
 					'theme_location' => 'menu-1',
