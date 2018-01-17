@@ -301,14 +301,30 @@ blockquote {
     font-weight: 300;
     text-align: right;
     margin-right: 4em;
+    margin-left: 4em;
 }
 
 .testimonials {
     width: 70%;
     margin: 0 auto;
     margin-bottom: 20px;
-    margin-bottom: 7em;
+    margin-bottom: 2em;
+    padding-bottom: 3em !important;
 }
+
+.testimonials:nth-child(even) {
+    background: #94ae89;
+    padding: 10px;
+    border-radius: 39px;
+    color: #fff;
+}
+
+.testimonials:nth-child(odd) {
+    background: none;
+    padding: 10px;
+    border-radius: 39px;
+}
+
 
 address {
 	margin: 0 0 1.5em;
@@ -954,6 +970,7 @@ background-color: transparent !important;
     position: relative;
     top: -14px;
     text-align: center;
+    line-height: 1.5;
 }
 
 .credits-book-page h6 {
@@ -1304,6 +1321,13 @@ object {
     }
 }
 
+
+@media screen and (max-width: 900px) {
+    .entry-content {
+    margin: 1.5em 40px 0 50px;
+}
+}
+
 @media screen and (max-width: 800px) {
     .home-content {
         padding-left: 50px;
@@ -1328,6 +1352,9 @@ object {
     .home-bottom h3 {
     font-size: 2em;
     }
+    .entry-content {
+    margin: 1.5em 25px 0 25px;
+}
     
 }
 
@@ -1380,6 +1407,19 @@ object {
     .home-header {
     margin-bottom: -110px;
     }
+    
+    blockquote {
+    font-size: 20px;
+    
+}
+    
+    
+
+
+.testimonials {
+
+    width: 90%;
+    }
 }
 
 @media screen and (max-width: 500px) {
@@ -1424,6 +1464,22 @@ object {
     font-size: 1em;
     
 }
+    .testimonials {
+
+        padding: 0px;
+    }
+    
+    .entry-content {
+    margin: 1.5em 10px 0 10px;
+}
+    blockquote {
+    font-size: 20px;
+    margin: 10px;
+}
+    
+    .quoter {
+        font-size: 14px;
+    }
 }
 
 @media screen and (max-width: 375px) {

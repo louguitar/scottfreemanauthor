@@ -34,11 +34,19 @@ get_header(); ?>
 
 			endwhile; // End of the loop.
 			?>
+    <?php if( have_rows('quotes')): 
+                while ( have_rows('quotes') ) : the_row(); ?>
             <div class="testimonials">
-            <blockquote>“A moving account of a beautiful project. We need stories of healing in this tough moment; this is a particularly fine one.”
+            <blockquote>“<?php the_sub_field('quote') ?>”
             </blockquote>
-                <div class="quoter">—Bill McKibben, author of Radio Free Vermont and The End of Nature</div>
+                <div class="quoter">—<?php the_sub_field('quoter') ?></div>
                 </div>
+                <?php 
+                endwhile;
+                else:
+                
+                endif;
+                ?>
              </div>   
                 
           </div>
