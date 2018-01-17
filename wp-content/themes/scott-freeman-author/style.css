@@ -625,7 +625,7 @@ a:hover, a:active {
 	position: relative;
 }
 
-.main-navigation a {
+#primary-menu a {
 	display: block;
 	text-decoration: none;
     color: #c59d5f;
@@ -634,7 +634,7 @@ a:hover, a:active {
     margin-top: 10px;
 }
 
-.main-navigation a:hover {
+#primary-menu a:hover {
 	text-decoration: underline;
     color: #c59d5f;
 }
@@ -689,7 +689,6 @@ a:hover, a:active {
 
 .site-branding {
     float: left;
-    
     font-size: 35px;
 /*    font-family: "josefin slab", serif;*/
     font-weight: 900;
@@ -697,6 +696,16 @@ a:hover, a:active {
     margin-top: 7px;
     margin-left: 100px;
     font-weight: 300;
+}
+
+.site-branding a, .site-branding a:visited {
+    color:#404040;
+    
+}
+
+.site-branding a:hover, .site-branding a:focus, .site-branding a:active {
+    color:#c59d5f;
+       
 }
 
 /*--------------------------------------------------------------
@@ -1410,7 +1419,7 @@ object {
         width: 100%;
         margin-left: 0%;
     }
-    .main-navigation a {
+    #primary-menu a {
     font-size: 18px;
     padding: 0 10px;
     margin-top: 13px;
@@ -1544,8 +1553,9 @@ object {
     .quoter {
         font-size: 14px;
     }
-    .main-navigation a {
-    padding: 0 5px;
+    #primary-menu a {
+        padding: 0 5px;
+        font-size: 16px;
 }
 
 @media screen and (max-width: 375px) {
