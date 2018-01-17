@@ -562,7 +562,7 @@ a:hover, a:active {
     flex-wrap: wrap;
     justify-content: right;
     height: 44px;
-    margin-right: 100px;
+/*    margin-right: 100px;*/
     
 
 }
@@ -574,6 +574,7 @@ a:hover, a:active {
     font-family: 'Josefin Sans', sans-serif;
     font-weight: 300;
     margin-top: 3px;
+    right: 100px;
 
 }
 
@@ -1351,8 +1352,8 @@ object {
 }
     
 */
-    .menu-main-menu-container {
-        margin-right: 50px;
+    #primary-menu {
+        right: 50px;
     }
     .site-branding {
         margin-left: 50px;
@@ -1393,9 +1394,9 @@ object {
 
 @media screen and (max-width: 770px) {
     
-    .menu-main-menu-container {
-    margin-right: 10px;
-}
+    #primary-menu {
+        right: 10px;
+    }
     .site-branding {
         margin-left: 25px;
     }
@@ -1466,6 +1467,7 @@ object {
     }
     #primary-menu {
     margin-top: 30px;
+            right: inherit;
     }
     .site-branding {
     float: none;;
