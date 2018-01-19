@@ -526,7 +526,14 @@ textarea {
 }
 
 textarea:focus, select:focus, input:focus {
-    border: 1px solid #c59d5f !important;
+    border: 1px solid #c59d5f !important.home-header {
+    position: relative;
+    top: -250px;
+    text-align: center;
+    color: white;
+    margin-bottom: -154px;
+    z-index: 5;
+};
 }
 
 /*--------------------------------------------------------------
@@ -883,7 +890,16 @@ background-color: transparent !important;
     z-index: 5;
 }
 
-.home-header h1 {
+.contact-header {
+    position: relative;
+    top: -250px;
+    text-align: center;
+    color: white;
+    margin-bottom: -154px;
+    z-index: 5;
+}
+
+.home-header h1, .contact-header h1 {
     font-size: 5.5em;
     margin-bottom: 0px;
     margin-top: 0px;
@@ -892,7 +908,7 @@ background-color: transparent !important;
     
 }
 
-.home-header h3 {
+.home-header h3, .contact-header h3 {
     font-size: 2.3em;
     margin-bottom: 0px;
     margin-top: 0px;
