@@ -853,7 +853,7 @@ a:hover, a:active {
 
 .site-container {
     max-width:1280px;
-    margin: -64px auto;
+    margin: -64px auto -44px auto;
 }
 
 #masthead {
@@ -863,9 +863,35 @@ a:hover, a:active {
 }
 
 footer {
-    max-width: 1280px;
+/*    max-width: 1280px;*/
     margin: 0 auto;
     clear:both;
+    
+    
+}
+
+.social-media {
+    height: 100px;
+    background: #3f5a7d;
+}
+
+.social-media h3 {
+    position: relative;
+    text-align: center;
+    font-weight: 100;
+    color: #fff;
+    font-size: 24px;
+    line-height: 100px;
+}
+
+.social-media h3 i {
+    font-size: 40px;
+}
+.social-link h3{
+    color: #fff;
+}
+.social-link h3:hover, .social-link h3:focus, .social-link h3:active {
+    color: #c59d5f !important;
     
 }
 /* Hide Title On Homepage */
@@ -1041,6 +1067,8 @@ background-color: transparent !important;
 .footer-copyright  {
     text-align: center;
     padding: 40px 0px 15px 0;
+    line-height: 0px;
+height: 76px;
 }
 
 
@@ -1523,6 +1551,10 @@ object {
 
     width: 90%;
     }
+    
+    .social-media h3 {
+        font-size: 20px;
+    }
 }
 
 @media screen and (max-width: 500px) {
@@ -1541,6 +1573,14 @@ object {
 */
     #primary-menu {
     margin-top: 25px;
+    }
+    
+    .social-media h3 {
+        font-size: 16px;
+    }
+    
+    .social-media h3 i {
+        font-size: 30px;
     }
 }
 
@@ -1615,7 +1655,12 @@ object {
     .home-header h3 {
     font-size: .8em;
     }
-    
+    .social-media h3 {
+        font-size: 14px;
+    }
+    .social-media h3 i {
+        font-size: 20px;
+    }
     
 }
 

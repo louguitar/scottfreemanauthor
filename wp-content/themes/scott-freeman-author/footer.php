@@ -15,6 +15,11 @@
 
 	<footer id="colophon" class="site-footer">
 		<div class="site-info">
+            <div class="social-media">
+            <a href="https://www.facebook.com/ScottFreemanAuthorTeacher/" target="_blank" class="social-link"><h3>Follow Scott and the Project on <i class="fa fa-facebook-official" aria-hidden="true"></i>
+                FACEBOOK.</h3></a>
+            
+            </div>
            <div class="footer-copyright"> © Scott Freeman. All rights reserved.  </div>
 <!-- 
 			<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'scott-freeman-author' ) ); ?>"><?php
