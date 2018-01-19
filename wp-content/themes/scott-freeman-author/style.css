@@ -533,6 +533,10 @@ textarea:focus, select:focus, input:focus {
     position: relative;
     top: 70px;
 }
+
+div.wpforms-container-full {
+    padding-bottom: 200px;
+}
 /*--------------------------------------------------------------
 # Navigation
 --------------------------------------------------------------*/
