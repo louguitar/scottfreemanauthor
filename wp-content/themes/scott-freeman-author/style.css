@@ -452,7 +452,7 @@ input[type="submit"] {
     transition: all 0.3s ease-out;
 }
 
-.wpforms-submit {
+.wpforms-submit-button {
     border: 2px solid #c59d5f;
 border-radius: 3px;
 background: #fff;
@@ -467,7 +467,7 @@ padding: .6em 1em .4em;
 transition: all 0.3s ease-out;
 }
 
-wpforms-submit:hover {
+wpforms-submit-button:hover {
 	border: 2px solid #fff;
     background: #c59d5f;
     color: #fff;
