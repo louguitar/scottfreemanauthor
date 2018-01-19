@@ -553,6 +553,7 @@ textarea:focus, select:focus, input:focus {
 .contact-form {
     position: relative;
     top: 70px;
+    min-height: 400px;
 }
 
 div.wpforms-container-full {
