@@ -526,7 +526,7 @@ textarea {
 }
 
 textarea:focus, select:focus, input:focus {
-    border: 1px solid #c59d5f;
+    border: 1px solid #c59d5f !important;
 }
 
 /*--------------------------------------------------------------
