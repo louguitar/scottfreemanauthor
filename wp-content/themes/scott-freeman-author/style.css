@@ -917,7 +917,7 @@ background-color: transparent !important;
     
 }
 
-.home-header hr {
+.home-header hr, .contact-header hr {
     width:100% !important;
     height:2px !important;
     background-image: linear-gradient(to right, transparent, rgba(255, 255, 255, 1), transparent) !important
