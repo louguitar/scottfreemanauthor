@@ -452,6 +452,27 @@ input[type="submit"] {
     transition: all 0.3s ease-out;
 }
 
+.wpforms-submit {
+    border: 2px solid #c59d5f;
+border-radius: 3px;
+background: #fff;
+color: rgba(197, 157, 95, 1);
+font-size: 12px;
+font-size: 0.75rem;
+line-height: 1;
+padding: .6em 1em .4em;
+-webkit-transition: all 0.3s ease-out;
+-moz-transition: all 0.3s ease-out;
+-o-transition: all 0.3s ease-out;
+transition: all 0.3s ease-out;
+}
+
+wpforms-submit:hover {
+	border: 2px solid #fff;
+    background: #c59d5f;
+    color: #fff;
+    
+}
 .cta_buttons button {
     font-size: 14px;
 }
