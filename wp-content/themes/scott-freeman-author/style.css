@@ -526,16 +526,13 @@ textarea {
 }
 
 textarea:focus, select:focus, input:focus {
-    border: 1px solid #c59d5f !important.home-header {
-    position: relative;
-    top: -250px;
-    text-align: center;
-    color: white;
-    margin-bottom: -154px;
-    z-index: 5;
-};
+    border: 1px solid #c59d5f !important
 }
 
+.contact-form {
+    position: relative;
+    top: 70px;
+}
 /*--------------------------------------------------------------
 # Navigation
 --------------------------------------------------------------*/
