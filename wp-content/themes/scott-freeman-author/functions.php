@@ -166,4 +166,12 @@ function special_nav_class ($classes, $item) {
     return $classes;
 }
 
+//// Relative Linking /////
+function internal_link_to_relative(  $url, $post, $leavename ) {
 
+if ( $post->post_type == 'post' ) {
+$url = wp_make_link_relative($url);
+}
+return $url;
+}
+add_filter( 'post_link', 'internal_link_to_relative', 10, 3 );

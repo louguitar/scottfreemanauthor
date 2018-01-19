@@ -32,7 +32,7 @@
 
 		<nav id="site-navigation" class="main-navigation">
 <!--			<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Primary Menu', 'scott-freeman-author' ); ?></button>--><div class="site-branding">
-			<a href="" class="site-home">Scott Freeman</a>
+			<a href="http://www.scottfreemanauthor.com/" class="site-home">Scott Freeman</a>
 		</div><!-- .site-branding -->
 			<?php
 				wp_nav_menu( array(
