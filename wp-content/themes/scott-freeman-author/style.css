@@ -467,7 +467,7 @@ input[type="submit"] {
     transition: all 0.3s ease-out !important;
 }
 
-wpforms-submit-button:hover {
+.wpforms-submit-button:hover {
 	border: 2px solid #fff !important;
     background: #c59d5f !important;
     color: #fff !important;
