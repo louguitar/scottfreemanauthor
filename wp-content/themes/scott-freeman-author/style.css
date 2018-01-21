@@ -684,6 +684,11 @@ a:hover, a:active {
     
 }
 
+.events-intro {
+    width: 60%;
+    margin: 40px auto !important;
+}
+
 
 /* Small menu. */
 .menu-toggle,
@@ -1470,6 +1475,10 @@ object {
     }
     .site-branding {
         margin-left: 25px;
+    }
+    .events-intro {
+        width: 100%;
+        margin: 0px auto 30px auto !important;
     }
 }
 
