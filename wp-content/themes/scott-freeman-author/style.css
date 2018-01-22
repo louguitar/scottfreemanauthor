@@ -1489,6 +1489,9 @@ object {
         width: 100%;
         margin: 0px auto 30px auto !important;
     }
+    #tribe-events-pg-template {
+    padding: 0px 20px 0px !important;
+    }
 }
 
 @media screen and (max-width: 700px) {
@@ -1556,6 +1559,9 @@ object {
     }
     #primary-menu {
     margin-top: 30px;
+    left: 15%;
+    right: 30%;
+    width: 100%;
     
     }
     .site-branding {
